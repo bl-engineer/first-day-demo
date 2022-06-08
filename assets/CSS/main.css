@@ -1,3 +1,15 @@
-body{
-    color: blue;
-}
+.comp{
+    color:orange; 
+    width:170px;
+  }
+  .com{
+    width:33%;
+  }
+  .btn{
+    text-align:center;
+    background-color: red;
+  }
+  #col{
+    color:blue;
+  }
+  

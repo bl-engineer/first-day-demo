@@ -10,5 +10,34 @@
 <body>
     <p>Coding is fun..</p>
     <script src="assets/js/script.js"></script>
+    <form>
+        Gender<br/>
+        <label><input type="radio" name="gender" value = "male">Male</label><br/>
+        <label><input type="radio" name="gender" value = "female">Female</label><br/><br/>
+        Favorite Food<br/>
+        <label><input type="radio" name="food" value = "pizza">Pizza</label><br/>
+        <label><input type="radio" name="food" value = "chips" checked="true">Chips</label><br/>
+        <label><input type="radio" name="food" value="Kale">Kale</label><br/><br/><br/>
+        
+        <input type = "submit">
+        
+      <br/><br/><br/><br/><br/><br/><br/>  
+        
+        <fieldset class = "com"> 
+          <legend class = "comp">Comparison of Emails</legend>
+          <label>Preferred email address: <input type="email" id="email_addr" name="email1" value="me@me.com" required>
+           </label><br/>
+           <label>Repeat email address:
+             <input type="email" id="email_repeat" name="email2" required onchange="check()">
+           </label><br/><br/>
+          <div class="btn">
+          <input type="submit" value="Confirm emails" id="col" onclick="return check();">
+          </div>
+          
+        </fieldset>
+        
+        
+      </form>
+      
 </body>
 </html>
